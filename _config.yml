@@ -17,7 +17,7 @@ paginate: 8
 excerpt_separator: <!-- more -->
 
 footer-links:
-  source: https://github.com/windbd/windbd.github.io
+  zhihu: 
   email: windbeda@gmail.com
   facebook:
   github: windbd.github.io
