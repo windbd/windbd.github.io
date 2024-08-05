@@ -1,8 +1,8 @@
-name: "Pianfan's blog"
-description: "翩帆的个人技术博客"
+name: "windbd's blog"
+description: "windbd的个人技术博客"
 
-avatar: https://pianfan.github.io/images/avatar.png
-favicon: https://pianfan.github.io/images/favicon.ico
+avatar: https://windbd.github.io/images/avatar.png
+favicon: https://windbd.github.io/images/favicon.ico
 
 navigation:
   - name: 首页
@@ -18,16 +18,16 @@ excerpt_separator: <!-- more -->
 
 footer-links:
   zhihu: 
-  email: xiongyunhan@outlook.com
+  email: windbeda@gmail.com
   facebook:
-  github: pianfan
-  rss: # just type anything here for a working RSS icon
+  github: https://github.com/windbd/
+  rss: 
   twitter: 
   youtube:
 
 footer-text: Copyright (c) 2024 Pianfan
 
-url: https://pianfan.github.io
+url: https://windbd.github.io
 
 permalink: /:title/
 paginate_path: /page:num/
