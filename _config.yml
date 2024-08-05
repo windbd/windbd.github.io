@@ -17,10 +17,10 @@ paginate: 8
 excerpt_separator: <!-- more -->
 
 footer-links:
-  zhihu: 
+  source: https://github.com/windbd/windbd.github.io
   email: windbeda@gmail.com
   facebook:
-  github: windbd.github.io
+  github: windbd
   rss: 
   twitter: 
   youtube:
