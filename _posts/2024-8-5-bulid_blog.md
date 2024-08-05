@@ -6,5 +6,9 @@ tags: [tag1, tag2]
 comments: true
 author: windbd
 ---
-参考链接1：https://pianfan.github.io/build_own_website/
+重要的github.io网站：
+- https://pianfan.github.io/  (buliding blog reference)
+- https://aosen.github.io/    (foreign sites collection)
+- https://yya518.github.io/    (Professor Yi Yang)
+- https://econdl.github.io/    (deep learning for economists)
   
