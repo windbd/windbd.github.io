@@ -6,8 +6,5 @@ tags: [tag1, tag2]
 comments: true
 author: windbd
 ---
-
-# My first personal blog
-
-- 参考链接1：https://pianfan.github.io/build_own_website/
+参考链接1：https://pianfan.github.io/build_own_website/
   
