@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-## 关于我
+## About me
 
 
 
-## 版权声明
+## Copyright statement
 
 
