@@ -1,15 +1,15 @@
 name: "windbd's blog"
-description: "windbd的个人技术博客"
+description: "windbd's personal technology blog"
 
 avatar: https://raw.githubusercontent.com/windbd/windbd.github.io/main/images/avatar.webp
 favicon: https://raw.githubusercontent.com/windbd/windbd.github.io/main/images/favicon.ico
 
 navigation:
-  - name: 首页
+  - name: Home
     url: /
-  - name: 关于
+  - name: About
     url: /about
-  - name: 分类
+  - name: Tags
     url: /tags
 
 paginate: 8
