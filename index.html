@@ -58,29 +58,12 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         main h2 {
-            font-size: 2.2em;
+            font-size: 1.6em;
             margin-top: 0;
             color: #333;
             border-bottom: 2px solid #dee2e6;
             padding-bottom: 10px;
             margin-bottom: 20px;
-        }
-        main ul {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        main li {
-            margin-bottom: 15px;
-            width: calc(33.333% - 20px); /* 每列占据三分之一的宽度，减去间距 */
-            box-sizing: border-box;
-            padding: 10px;
-            background-color: #fff;
-            border: 1px solid #dee2e6;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         main a {
             text-decoration: none;
@@ -92,18 +75,43 @@
             text-decoration: underline;
             color: #0056b3;
         }
-        main li br {
-            display: none; /* 隐藏 &nbsp;&nbsp; 标签 */
+        main table {
+            width: auto; /* 自适应宽度 */
+            max-width: 800px; /* 最大宽度限制 */
+            min-width: 300px; /* 最小宽度限制 */
+            border-collapse: collapse;
+            margin: 20px auto;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        main li p {
-            margin: 5px 0 0 0; /* 增加上边距 */
-            font-size: 0.75em; 
-            color: #666;
-            line-height: 1.4; /* 增加行间距 */
+
+        main th, main td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+            font-size: 16px;
+            line-height: 24px;
+            min-width: 100px; /* 单元格最小宽度 */
         }
-        main li span {
-            font-size: 0.8em; /* 减小链接描述的字体大小 */
-            color: #666; /* 增加链接描述的区分度 */
+
+        main th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        main tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        main tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        main tr:hover {
+            background-color: #e0e0e0;
         }
 
     </style>
@@ -121,45 +129,121 @@
     </nav>
     <main>
         <h2 id="ai">人工智能</h2>
-        <ul>
-            <li><a href="https://lmarena.ai/">Chatbot</a>&nbsp;&nbsp;大模型评测平台</li>
-            <li><a href="https://arena.flageval.net/">Flageval</a>&nbsp;&nbsp;大模型评测平台</li>
-            <li><a href="https://opencompass.org.cn/arena/">Compass</a>&nbsp;&nbsp;大模型评测平台</li>
-            <li><a href="https://www.n.cn/">纳米AI</a>&nbsp;&nbsp;AI搜索引擎</li>
-            <li><a href="https://metaso.cn/">秘塔AI</a>&nbsp;&nbsp;AI搜索引擎</li>
-            <li><a href="https://www.perplexity.ai/">perplexity</a>&nbsp;&nbsp;AI搜索引擎</li>
-            <li><a href="https://chatgpt.com/">ChatGPT</a>&nbsp;&nbsp;AI大模型</li>
-            <li><a href="https://www.anthropic.com/">Claude</a>&nbsp;&nbsp;AI大模型</li>
-            <li><a href="https://gemini.google.com/">Gemini</a>&nbsp;&nbsp;AI大模型</li>
-        </ul>
+        <table>
+            <tr>
+                <th>名称</th>
+                <th>描述</th>
+            </tr>
+            <tr>
+                <td><a href="https://lmarena.ai/">Chatbot</a></td>
+                <td>大模型评测平台</td>
+            </tr>
+            <tr>
+                <td><a href="https://arena.flageval.net/">Flageval</a></td>
+                <td>大模型评测平台</td>
+            </tr>
+            <tr>
+                <td><a href="https://opencompass.org.cn/arena/">Compass</a></td>
+                <td>大模型评测平台</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.n.cn/">纳米AI</a></td>
+                <td>AI搜索引擎</td>
+            </tr>
+            <tr>
+                <td><a href="https://felo.ai/zh-Hans/search">Felo</a></td>
+                <td>AI搜索引擎</td>
+            <tr>
+                <td><a href="https://metaso.cn/">秘塔AI</a></td>
+                <td>AI搜索引擎</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.perplexity.ai/">perplexity</a></td>
+                <td>AI搜索引擎</td>
+            </tr>
+            <tr>
+                <td><a href="https://chatgpt.com/">ChatGPT</a></td>
+                <td>AI大模型</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.anthropic.com/">Claude</a></td>
+                <td>AI大模型</td>
+            </tr>   
+            <tr>
+                <td><a href="https://gemini.google.com/">Gemini</a></td>
+                <td>AI大模型</td>
+            </tr>
+        </table>
 
         <h2 id="data">数据资源</h2>
-        <ul>
-            <li><a href="https://www.nature.com/sdata/">Scientific Data</a>&nbsp;&nbsp;Nature科学数据</li>
-            <li><a href="https://www.scidb.cn/">ScienceDB</a>&nbsp;&nbsp;科学数据银行</li>
-            <li><a href="https://cseweb.ucsd.edu//~jmcauley/datasets.html">jmcauley</a>&nbsp;&nbsp;亚马逊数据集</li>
-            <li><a href="https://www.yelp.com/dataset">Yelp Data</a>&nbsp;&nbsp;Yelp数据集</li>
-            <li><a href="https://data.stackexchange.com/">StackExchange Data</a>&nbsp;&nbsp;StackExchange数据集</li>
-            <li><a href="https://mp.weixin.qq.com/s/j8-4Z2bGgvvv_WSmPcJbsw">知识类数据集</a>&nbsp;&nbsp;知识类问答数据集资源</li>
-        </ul>
+        <table>
+            <tr>
+                <th>名称</th>
+                <th>描述</th>
+            </tr>
+            <tr>
+                <td><a href="https://www.nature.com/sdata/">Scientific Data</a></td>
+                <td>Nature科学数据</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.scidb.cn/">ScienceDB</a></td>
+                <td>科学数据银行</td>
+            </tr>
+            <tr>
+                <td><a href="https://cseweb.ucsd.edu//~jmcauley/datasets.html">jmcauley</a></td>
+                <td>亚马逊数据集</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.yelp.com/dataset">Yelp Data</a></td>
+                <td>Yelp数据集</td>
+            </tr>
+            <tr>
+                <td><a href="https://data.stackexchange.com/">StackExchange Data</a></td>
+                <td>StackExchange数据集</td>
+            </tr>
+            <tr>
+                <td><a href="https://mp.weixin.qq.com/s/j8-4Z2bGgvvv_WSmPcJbsw">知识类数据集</a></td>
+                <td>知识类问答数据集资源</td>
+            </tr>
+        </table>
 
         <h2 id="profile">个人博客</h2>
-        <ul>
-            <li><a href="https://yya518.github.io/">Yi Yang</a>&nbsp;&nbsp;Professor at Hong Kong University of Science and Technology.
-                &nbsp;&nbsp;NLP, machine learning, statistical inference, and their applications in finance and business</li>
-            <li><a href="https://dengyang17.github.io/"> Yang Deng</a>&nbsp;&nbsp;Professor at Singapore Management University. 
-                &nbsp;&nbsp;LM Powered Agents, Proactive Conversational AI, Trust and Reliability of LLMs,Human-centered Information Seeking.</li>
-            <li><a href="https://tafseer-nayeem.github.io/">Mir Tafseer Nayeem</a>&nbsp;&nbsp;ph.D at the University of Alberta. 
-                &nbsp;&nbsp;Human-centered NLP, Summarization, and Multilingual & Cross-Lingual NLP.</li>
-            <li><a href="https://ssy0226.github.io/">Siyu Song</a>&nbsp;&nbsp;M.S. at Anhui University. 
-                &nbsp;&nbsp;Data Mining, Intelligent Education, Graph Neural Network and LLMs.</li>
-            <li><a href="https://amourwaltz.github.io/">ph.D Beyond Hsueh</a>&nbsp;&nbsp;ph.D at the Chinese University of Hong Kong. 
-                &nbsp;&nbsp;Reliable LLMs, Multi-modal Learning, Speech Recognition.</li>
-            <li><a href="https://isakzhang.github.io/">ph.D Wenxuan Zhang</a>&nbsp;&nbsp;Scientist at Alibaba DAMO Academy.
-                &nbsp;&nbsp;Multilingual, Safety, Evaluation, Accessiblity.</li>
-            <li><a href="https://yimutianyang.github.io/">Yonghui Yang</a>&nbsp;&nbsp;ph.D at Hefei University of Technology.
-                &nbsp;&nbsp;Graph-based Recommendation, Fiarness-ware User Modeling, and Self-supervised Learning</li>
-        </ul>
+        <table>
+            <tr>
+                <th>名称</th>
+                <th>描述</th>
+            </tr>
+            <tr>
+                <td><a href="https://yya518.github.io/">Yi Yang</a></td>
+                <td>Professor at Hong Kong University of Science and Technology. 
+                    NLP, machine learning, statistical inference, and their applications in finance and business</td>
+            </tr>
+            <tr>
+                <td><a href="https://dengyang17.github.io/">Yang Deng</a></td>
+                <td>Professor at Singapore Management University. 
+                    LM Powered Agents, Proactive Conversational AI, Trust and Reliability of LLMs,Human-centered Information Seeking.</td>
+            </tr>
+            <tr>
+                <td><a href="https://tafseer-nayeem.github.io/">Mir Tafseer Nayeem</a></td>
+                <td>ph.D at the University of Alberta. 
+                    Human-centered NLP, Summarization, and Multilingual & Cross-Lingual NLP.</td>
+            </tr>
+            <tr>
+                <td><a href="https://amourwaltz.github.io/">ph.D Beyond Hsueh</a></td>
+                <td>ph.D at the Chinese University of Hong Kong. 
+                    Reliable LLMs, Multi-modal Learning, Speech Recognition.</td>
+            </tr>
+            <tr>
+                <td><a href="https://isakzhang.github.io/">ph.D Wenxuan Zhang</a></td>
+                <td>Scientist at Alibaba DAMO Academy. 
+                    Multilingual, Safety, Evaluation, Accessiblity.</td>
+            </tr>
+            <tr>
+                <td><a href="https://yimutianyang.github.io/">Yonghui Yang</a></td>
+                <td>ph.D at Hefei University of Technology. 
+                    Graph-based Recommendation, Fiarness-ware User Modeling, and Self-supervised Learning</td>
+            </tr>
+        </table>
     </main>
 </body>
 </html>
