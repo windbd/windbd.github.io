@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="shortcut icon" href="/assets/blog.svg" type="image/x-icon">
+  <title> windbd </title>
+  <meta name="author" content="windbd">
+  <meta name="description" content="Homepage of windbd">
+  <link rel="stylesheet" href="./styles.css">
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134238626-1"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-134238626-1');
+  </script>
+</head>
+
+<body>
+  <div class="container content"> 
+  <main>
+  <div class="home">
+
+  <div class="mini-intro">
+  <!-- <img class="avatar" src="img/wxzhang-2023-square2.jpg" alt="wxzhang-photo"> -->
+
+  <h1 id="windbd">windbd</h1>
+  
+  <br>
+  <br>SUTD Assistant Professor
+  <br>Information Systems Technology and Design (ISTD) Pillar
+  <br>Singapore University of Technology and Design
+
+  <br><br><a href="https://www.sutd.edu.sg/profile/zhang-wenxuan">Faculty Page</a> | <a href="https://scholar.google.com/citations?user=tr7MWA4AAAAJ&hl=en">Google Scholar</a> | <a href="https://www.linkedin.com/in/wenxuan-zhang-608b88153/">LinkedIn</a> | <a href="https://x.com/Wenxuan__Zhang">X (Twitter)</a> | <a href="https://www.zhihu.com/people/jun-moer">Zhihu</a>
+
+  <br><br>
+  
+  <!-- 
+  <br>Quick jumps: [<a href="#bio">Short Bio</a>] [<a href="#pub">Publications</a>] [<a href="#awards">Honors</a>] [<a href="#professional">Service</a>] [<a href="#teaching">Teaching&Talk</a>]
+  -->
+
+  <!--Navigation bar-->
+  <div id="menu">
+    <div>
+      <a href="index.html">About</a>
+    </div>
+    <div>
+      <a href="research.html">Research</a>
+    </div>
+    <div>
+      <a href="getinvolved.html">Getting Invovled</a>
+    </div>
+    <script>
+      $(function () {
+        const current = window.location.pathname.split("/");
+        $('#menu div a').each(function(){
+          const $this = $(this);
+          // if the current path is like this link, make it active
+          if (current.indexOf($this.attr("href")) !== -1) {
+            $this.parent().addClass("now");
+          }
+        })
+      });
+    </script>
+  </div>
+  <!--end of Navigation bar-->
+  <h2 id="data">数据资源</h2>
+  <table>
+      <tr>
+          <th>名称</th>
+          <th>描述</th>
+      </tr>
+      <tr>
+          <td><a href="https://www.nature.com/sdata/">Scientific Data</a></td>
+          <td>Nature科学数据</td>
+      </tr>
+      <tr>
+          <td><a href="https://www.scidb.cn/">ScienceDB</a></td>
+          <td>科学数据银行</td>
+      </tr>
+      <tr>
+          <td><a href="https://cseweb.ucsd.edu//~jmcauley/datasets.html">jmcauley</a></td>
+          <td>亚马逊数据集</td>
+      </tr>
+      <tr>
+          <td><a href="https://www.yelp.com/dataset">Yelp Data</a></td>
+          <td>Yelp数据集</td>
+      </tr>
+      <tr>
+          <td><a href="https://data.stackexchange.com/">StackExchange Data</a></td>
+          <td>StackExchange数据集</td>
+      </tr>
+      <tr>
+          <td><a href="https://mp.weixin.qq.com/s/j8-4Z2bGgvvv_WSmPcJbsw">知识类数据集</a></td>
+          <td>知识类问答数据集资源</td>
+      </tr>
+  </table>
+
+  <h2 id="profile">博客资源</h2>
+  <table>
+      <tr>
+          <th>名称</th>
+          <th>描述</th>
+      </tr>
+      <tr>
+          <td><a href="https://yya518.github.io/">Yi Yang</a></td>
+          <td>Professor at Hong Kong University of Science and Technology. 
+              NLP, machine learning, statistical inference, and their applications in finance and business</td>
+      </tr>
+      <tr>
+          <td><a href="https://dengyang17.github.io/">Yang Deng</a></td>
+          <td>Professor at Singapore Management University. 
+              LM Powered Agents, Proactive Conversational AI, Trust and Reliability of LLMs,Human-centered Information Seeking.</td>
+      </tr>
+      <tr>
+          <td><a href="https://tafseer-nayeem.github.io/">Mir Tafseer Nayeem</a></td>
+          <td>ph.D at the University of Alberta. 
+              Human-centered NLP, Summarization, and Multilingual & Cross-Lingual NLP.</td>
+      </tr>
+      <tr>
+          <td><a href="https://amourwaltz.github.io/">ph.D Beyond Hsueh</a></td>
+          <td>ph.D at the Chinese University of Hong Kong. 
+              Reliable LLMs, Multi-modal Learning, Speech Recognition.</td>
+      </tr>
+      <tr>
+          <td><a href="https://isakzhang.github.io/">ph.D Wenxuan Zhang</a></td>
+          <td>Scientist at Alibaba DAMO Academy. 
+              Multilingual, Safety, Evaluation, Accessiblity.</td>
+      </tr>
+      <tr>
+          <td><a href="https://yimutianyang.github.io/">Yonghui Yang</a></td>
+          <td>ph.D at Hefei University of Technology. 
+              Graph-based Recommendation, Fiarness-ware User Modeling, and Self-supervised Learning</td>
+      </tr>
+  </table>
+  <h3><a name="bio"></a>About me <font size="4.5">[<a href="./bio.html">Short bio</a>]</font></h3>
+  I am currently a tenure-track <i>SUTD Assistant Professor</i> at the Information Systems Technology and Design (ISTD) pillar, Singapore University of Technology and Design (SUTD). Before this, I was a research scientist at Alibaba Group Singapore. I received my Ph.D. from <a href="https://www.cuhk.edu.hk/">The Chinese University of Hong Kong</a>.
+  <!-- , where I was advised by <a href="http://www1.se.cuhk.edu.hk/~textmine/">Prof. Wai Lam</a>.-->
+
+  <br><br>My research interests lie broadly in natural language processing and machine learning, though most of my research are centered around large language models these days. 
+  I am passinate to advance NLP models that are <strong>inclusive</strong>, supporting diverse languages and cultures (e.g., multilingual large language models), while also <strong>trustworthy</strong> through techniques that improve understanding, safety and robustness of language models. 
+  <!--I am passionate about ensuring NLP benefits people equally by making systems accessible, controllable and reliable.-->
+
+  <br><br>Research projects I'm working on / plan to work on:
+  <ul>
+    <li>
+      [<span style="color:royalblue;">Multilingual</span>] Understanding and enhancing multilingual capabilities of LLMs (<a href="https://damo-nlp-sg.github.io/SeaLLMs/">SeaLLMs</a> Project)
+    </li>
+    <li> 
+      [<span style="color:royalblue;">Safety</span>] Ensuring safety of LLMs from development to deployment (<a href="https://arxiv.org/abs/2310.06474">MultiJail</a>)
+    </li>
+    <li> 
+      [<span style="color:royalblue;">Evaluation</span>] Comprehensive and fair evaluation of foundation models (<a href="https://arxiv.org/pdf/2306.05179.pdf">M3Exam</a>, <a href="https://auto-arena.github.io/">Auto-Arena</a>)
+    </li>
+    <li> 
+      [<span style="color:royalblue;">Accessiblity</span>] Making LLMs more accessible to general users, through model compression or small-large model collaboration
+    </li>
+    <!-- <li> Sentiment and opinion understanding: how well do LLMs understand human's subjective feeling </li> -->
+  </ul>
+
+
+  <h3 id="news">News</h3>
+    <ul>
+      <li>[Feb 2025] I officially joined SUTD!
+      <li>[Jan 2025] Thrilled to receive the prestigious "<a href="https://www.sutd.edu.sg/about/careers/assistant-professorships/sutd-assistant-professorships">SUTD Assistant Professorship (SAP)</a>" award</li>
+      <li>[Oct 2024] Glad to be invited to give a keynote talk at SSNLP 2024.</li>
+      <li>[Aug 2024] I will serve as an Area Chair for ICLR 2025</li>
+      <li>[July 2024] <a href="https://huggingface.co/collections/SeaLLMs/seallms-v3-668f3a52e1e6fbaad5752cdb">SeaLLMs 3</a> is here - the latest iteration of SeaLLMs with SOTA performance of diverse tasks while specifically enhanced to be more trustworthy. Check out the <a href="https://huggingface.co/collections/SeaLLMs/seallms-v3-668f3a52e1e6fbaad5752cdb">model</a> and <a href="https://arxiv.org/abs/2407.19672">paper</a>!</li>
+      <li>[June 2024] SeaLLMs was awarded the <i>"Best Innovate for Impact Award"</i> by The International Telecommunication Union (ITU) of United Nations.</li>
+      <li>[May 2024] M3Exam was officialy used to <a href="https://openai.com/index/hello-gpt-4o/">evaluate GPT-4o's multilingual and multimodal capability</a>.</li>
+      <li>[Apr 2024] I am honored to speak at SCS and IMDA about our SeaLLMs project and the evaluation / safety measures we've implemented during the development. </li>
+      <li>[Jan 2024] Two papers accepted to ICLR 2024: <a href="https://arxiv.org/abs/2310.06474">multilingual jailbreak challenge</a> & <a href="https://arxiv.org/abs/2311.00262">plug-and-play policy planner for LLM-based dialog agent.</a></li>
+      <li>[Nov 2023] We release <a href="https://github.com/DAMO-NLP-SG/SeaLLMs">SeaLLMs</a> - the first LLM dedicated to languages in Southeast Asia region.</li>
+      <!--
+      <li><span style="color:#B08519">[Sep 2023]</span> Two papers accepted to NeurIPS 2023.</li>
+      <li><span style="color:#B08519">[June 2023]</span> We release <strong>M3Exam</strong>, a novel benchmark sourced from real and official human exam questions for evaluating LLMs in a multilingual, multimodal, and multilevel context. <a href="https://arxiv.org/pdf/2306.05179.pdf">[paper]</a> <a href="https://github.com/DAMO-NLP-SG/M3Exam">[data]</a></li>
+      <li><span style="color:#B08519">[May 2023]</span> We conducted a reality check on current large language models for various sentiment analysis tasks, the <a href="https://arxiv.org/abs/2305.15005">paper</a> is available on arXiv now.</li> -->
+      <!-- <li><span style="color:#B08519">[Apr 2023]</span> Our tutorial "Sentiment Analysis and Beyond in the Era of Enlarged Language Models" was accepted to IJCAI-2023. Check it <a href="https://isakzhang.github.io/talks/ijcai23-sentiment-tutorial.html">here</a>!</li> -->
+    </ul>
+  
+
+
+  <h3><a name="awards"></a>Selected Honors & Awards</h3>
+  <ul>
+    <li> <a href="https://www.sutd.edu.sg/about/careers/assistant-professorships/sutd-assistant-professorships">SUTD Assistant Professorship (SAP)</a>, 2025</li>
+    <li> Alibaba Star, Alibaba Group, 2022</li>
+    <li> National Scholarship, 2017</li>
+    <li> National Cyber Security Scholarship (<i>Only <span style="color:#B08519">100</span> undergraduates in China are awarded every year</i>), 2017</li>
+    <li> National Scholarship, 2016</li>
+  </ul>
+
+
+  <h3><a name="professional"></a>Professional Service</h3>
+  <ul>
+    <li> Area Chair: ICLR 2025, NAACL 2025, EMNLP 2024 </li>
+    <li> Regular PC Member (or Reviewer): ACL, EMNLP, ACL Rolling Review, COLING; NeurIPS, ICML, AAAI, IJCAI; SIGKDD, WWW, WSDM
+    <li> Journal Reviewer: Computational Linguistics (CL), ACM Transactions on Information Systems (TOIS), IEEE Transactions on Knowledge and Data Engineering (TKDE), ACM Transactions on the Web (TWEB), Neurocomputing, Transactions on Audio, Speech and Language Processing (TASLP) </li>
+  </ul>
+
+  <h3><a name="teaching"></a>Teaching & Talk</h3>
+  <ul>
+    <li>Nov 2024: invited keynote talk at <a href="https://wing-nus.github.io/SSNLP-2024/">SSNLP 2024</a></li>
+    <li>Oct 2024: invited talk and panel discussion at <a href="https://www.switchsg.org/">Singapore Week of Innovation Technology (SWITCH) 2024</a></li>
+    <li>July 2024: invited keynote talk at <a href="https://kdd.sg/singapore-acm-sigkdd-symposium-2024/">Singapore ACM SIGKDD Symposium 2024</a>.</li>
+    <li>Apr 2024: invited talk on the SeaLLMs project at <a href="https://www.scs.org.sg/events/details/transforming-analytics-with-gen-ai-and-site-visit-to-ibm">Singapore Computer Society (SCS)</a>
+    <li> Apr 2024: invited talk at <a href="https://www.imda.gov.sg/activities/activities-catalogue/technical-sharing-session-on-ai-safety"> Infocomm Media Development Authority (IMDA)</a> of Singapore</li>
+    <li> Sep 2023: invited talk on M3Exam at multilingual & multimodal LLMs session of <a href="http://mlnlp.world/mlnlp2023/">MLNLP 2023</a></li>
+    <li> Aug 2023: half-day tutorial "<a href="https://isakzhang.github.io/talks/ijcai23-sentiment-tutorial.html">Sentiment Analysis in the Era of LLMs</a>" at IJCAI 2023. [<a href="https://docs.google.com/presentation/d/1fjH6ZxfCPtJPI1eU8eqhG9qdS1w3DPwxrYG6-SRmCMU/edit?usp=sharing">slides</a>]</li>
+    <li> Mar 2023: invited talk "A Survey on Aspect-Based Sentiment Analysis" at <a href="https://s3a.sentic.net/">Singapore Symposium
+      on Sentiment Analysis (S3A)</a>.</li>
+    <li> Guest lecture "<i>Neural models for text</i>" for SEEM5680 Text Mining Models and Applications at CUHK</li>
+    <!--
+    <li> TA for ECLT5810 E-Commerce Data Mining Technique (for Msc, 2018-19 Spring, 2020-2021 Spring) </li>
+    <li> TA for SEEM3440 Operations Research II (for UG, 2020 Fall)</li>
+    <li> TA for SEEM3460/ESTR3504 Computer Processing System Concepts (for UG, 2018-19 Fall, 2019-2020 Fall, 2020-2021 Fall)</li>
+    -->
+  </ul>
+</div>
+
+
+<div id='footer'>
+  <p style="text-align:center;">Last updated: Feb 2025</p>
+</div>
+
+</body>
+
+</html>
