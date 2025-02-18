@@ -22,6 +22,7 @@ My name is Zhang Lingfeng, Ph.D Candidate in Hefei University of Technology.
 My research interest includes UI Agent, LLM, multimodal learning.
 
 # 💾Resources
+## data
 <table>
   <tr>
       <th>名称</th>
@@ -53,6 +54,7 @@ My research interest includes UI Agent, LLM, multimodal learning.
   </tr>
 </table>
 
+## blog
 <table>
   <tr>
       <th>名称</th>
@@ -92,11 +94,10 @@ My research interest includes UI Agent, LLM, multimodal learning.
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='../images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
