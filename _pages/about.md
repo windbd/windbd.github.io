@@ -22,7 +22,6 @@ My name is Zhang Lingfeng, Ph.D Candidate in Hefei University of Technology.
 My research interest includes UI Agent, LLM, multimodal learning.
 
 # 💾 Resources
-## data
 <table>
   <tr>
       <th>名称</th>
@@ -51,44 +50,6 @@ My research interest includes UI Agent, LLM, multimodal learning.
   <tr>
       <td><a href="https://mp.weixin.qq.com/s/j8-4Z2bGgvvv_WSmPcJbsw">知识类数据集</a></td>
       <td>知识类问答数据集资源</td>
-  </tr>
-</table>
-
-## 💻blog
-<table>
-  <tr>
-      <th>名称</th>
-      <th>描述</th>
-  </tr>
-  <tr>
-      <td><a href="https://yya518.github.io/">Yi Yang</a></td>
-      <td>Professor at Hong Kong University of Science and Technology. 
-          NLP, machine learning, statistical inference, and their applications in finance and business</td>
-  </tr>
-  <tr>
-      <td><a href="https://dengyang17.github.io/">Yang Deng</a></td>
-      <td>Professor at Singapore Management University. 
-          LM Powered Agents, Proactive Conversational AI, Trust and Reliability of LLMs,Human-centered Information Seeking.</td>
-  </tr>
-  <tr>
-      <td><a href="https://tafseer-nayeem.github.io/">Mir Tafseer Nayeem</a></td>
-      <td>ph.D at the University of Alberta. 
-          Human-centered NLP, Summarization, and Multilingual & Cross-Lingual NLP.</td>
-  </tr>
-  <tr>
-      <td><a href="https://amourwaltz.github.io/">ph.D Beyond Hsueh</a></td>
-      <td>ph.D at the Chinese University of Hong Kong. 
-          Reliable LLMs, Multi-modal Learning, Speech Recognition.</td>
-  </tr>
-  <tr>
-      <td><a href="https://isakzhang.github.io/">ph.D Wenxuan Zhang</a></td>
-      <td>Scientist at Alibaba DAMO Academy. 
-          Multilingual, Safety, Evaluation, Accessiblity.</td>
-  </tr>
-  <tr>
-      <td><a href="https://yimutianyang.github.io/">Yonghui Yang</a></td>
-      <td>ph.D at Hefei University of Technology. 
-          Graph-based Recommendation, Fiarness-ware User Modeling, and Self-supervised Learning</td>
   </tr>
 </table>
 
