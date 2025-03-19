@@ -30,6 +30,7 @@ My research interest includes UI Agent, LLM, multimodal learning.
 
 
 ## Following resources:
+
 <table>
   <tr>
       <th>Link</th>
@@ -52,47 +53,10 @@ My research interest includes UI Agent, LLM, multimodal learning.
       <td>Yelp Open Dataset</td>
   </tr>
   <tr>
-      <td><a href="https://data.stackexchange.com/">StackExchange Data</a></td>
+      <td><a href="https://data.stackexchange.com/">https://data.stackexchange.com</a></td>
       <td>StackExchange Data Explorer</td>
 </table>
 
-## 💻blog
-<table>
-  <tr>
-      <th>名称</th>
-      <th>描述</th>
-  </tr>
-  <tr>
-      <td><a href="https://yya518.github.io/">Yi Yang</a></td>
-      <td>Professor at Hong Kong University of Science and Technology. 
-          NLP, machine learning, statistical inference, and their applications in finance and business</td>
-  </tr>
-  <tr>
-      <td><a href="https://dengyang17.github.io/">Yang Deng</a></td>
-      <td>Professor at Singapore Management University. 
-          LM Powered Agents, Proactive Conversational AI, Trust and Reliability of LLMs,Human-centered Information Seeking.</td>
-  </tr>
-  <tr>
-      <td><a href="https://tafseer-nayeem.github.io/">Mir Tafseer Nayeem</a></td>
-      <td>ph.D at the University of Alberta. 
-          Human-centered NLP, Summarization, and Multilingual & Cross-Lingual NLP.</td>
-  </tr>
-  <tr>
-      <td><a href="https://amourwaltz.github.io/">ph.D Beyond Hsueh</a></td>
-      <td>ph.D at the Chinese University of Hong Kong. 
-          Reliable LLMs, Multi-modal Learning, Speech Recognition.</td>
-  </tr>
-  <tr>
-      <td><a href="https://isakzhang.github.io/">ph.D Wenxuan Zhang</a></td>
-      <td>Scientist at Alibaba DAMO Academy. 
-          Multilingual, Safety, Evaluation, Accessiblity.</td>
-  </tr>
-  <tr>
-      <td><a href="https://yimutianyang.github.io/">Yonghui Yang</a></td>
-      <td>ph.D at Hefei University of Technology. 
-          Graph-based Recommendation, Fiarness-ware User Modeling, and Self-supervised Learning</td>
-  </tr>
-</table>
 
 # 🔥 News
 - *XXXX.XX*: &nbsp;🎉🎉 XXXXXXX
