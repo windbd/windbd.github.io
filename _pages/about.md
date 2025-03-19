@@ -21,35 +21,37 @@ My name is Zhang Lingfeng, Ph.D Candidate in Hefei University of Technology.
 
 My research interest includes UI Agent, LLM, multimodal learning.
 
-# 💾 Resources
+# 💾 Follow
+## Following scholars:
+- [Yang Deng](https://dengyang17.github.io/)
+- [Yi Yang](https://yya518.github.io/)
+- [Mir Tafseer Nayeem](https://tafseer-nayeem.github.io/)
+- [Wenxuan Zhang](https://isakzhang.github.io/)
+## Following resources:
 <table>
   <tr>
-      <th>名称</th>
-      <th>描述</th>
+      <th>Link</th>
+      <th>Discretion</th>
   </tr>
   <tr>
-      <td><a href="https://www.nature.com/sdata/">Scientific Data</a></td>
-      <td>Nature科学数据</td>
+      <td><a href="https://www.nature.com/sdata/">https://www.nature.com/sdata/</a></td>
+      <td>Scientific DData</td>
   </tr>
   <tr>
-      <td><a href="https://www.scidb.cn/">ScienceDB</a></td>
-      <td>科学数据银行</td>
+      <td><a href="https://www.scidb.cn/">https://www.scidb.cn/</a></td>
+      <td>Science Data Bank</td>
   </tr>
   <tr>
-      <td><a href="https://cseweb.ucsd.edu//~jmcauley/datasets.html">jmcauley</a></td>
-      <td>亚马逊数据集</td>
+      <td><a href="https://cseweb.ucsd.edu//~jmcauley/datasets.html">https://cseweb.ucsd.edu//~jmcauley/datasets.html</a></td>
+      <td>Recommender Systems and Personalization Datasets</td>
   </tr>
   <tr>
-      <td><a href="https://www.yelp.com/dataset">Yelp Data</a></td>
-      <td>Yelp数据集</td>
+      <td><a href="https://www.yelp.com/dataset">https://www.yelp.com/dataset</a></td>
+      <td>Yelp Open Dataset</td>
   </tr>
   <tr>
-      <td><a href="https://data.stackexchange.com/">StackExchange Data</a></td>
-      <td>StackExchange数据集</td>
-  </tr>
-  <tr>
-      <td><a href="https://mp.weixin.qq.com/s/j8-4Z2bGgvvv_WSmPcJbsw">知识类数据集</a></td>
-      <td>知识类问答数据集资源</td>
+      <td><a href="https://data.stackexchange.com/">https://data.stackexchange.com/</a></td>
+      <td>StackExchange Data explorer</td>
   </tr>
 </table>
 
