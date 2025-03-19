@@ -22,15 +22,14 @@ My name is Zhang Lingfeng, Ph.D Candidate in Hefei University of Technology.
 My research interest includes UI Agent, LLM, multimodal learning.
 
 # 💾 Follow
-## Following scholars:
+Following scholars:
 - [Yang Deng](https://dengyang17.github.io/)
 - [Yi Yang](https://yya518.github.io/)
 - [Mir Tafseer Nayeem](https://tafseer-nayeem.github.io/)
-- [Wenxuan Zhang](https://isakzhang.github.io/)
+- [Wenxuan Zhang](https://isakzhang.github.io/) 
 
 
-## Following resources:
-
+Following resources:
 <table>
   <tr>
       <th>Link</th>
