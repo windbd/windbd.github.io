@@ -53,12 +53,7 @@ My research interest includes UI Agent, LLM, multimodal learning.
   </tr>
   <tr>
       <td><a href="https://data.stackexchange.com/">StackExchange Data</a></td>
-      <td>StackExchange数据集</td>
-  </tr>
-  <tr>
-      <td><a href="https://mp.weixin.qq.com/s/j8-4Z2bGgvvv_WSmPcJbsw">知识类数据集</a></td>
-      <td>知识类问答数据集资源</td>
-  </tr>
+      <td>StackExchange Data Explorer</td>
 </table>
 
 ## 💻blog
