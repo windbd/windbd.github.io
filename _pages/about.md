@@ -21,41 +21,6 @@ My name is Zhang Lingfeng, Ph.D Candidate in Hefei University of Technology.
 
 My research interest includes UI Agent, LLM, multimodal learning.
 
-# 💾 Follow
-Following scholars:
-- [Yang Deng](https://dengyang17.github.io/)
-- [Yi Yang](https://yya518.github.io/)
-- [Mir Tafseer Nayeem](https://tafseer-nayeem.github.io/)
-- [Wenxuan Zhang](https://isakzhang.github.io/) 
-
-
-Following resources:
-<table>
-  <tr>
-      <th>Link</th>
-      <th>Discretion</th>
-  </tr>
-  <tr>
-      <td><a href="https://www.nature.com/sdata/">https://www.nature.com/sdata/</a></td>
-      <td>Scientific DData</td>
-  </tr>
-  <tr>
-      <td><a href="https://www.scidb.cn/">https://www.scidb.cn/</a></td>
-      <td>Science Data Bank</td>
-  </tr>
-  <tr>
-      <td><a href="https://cseweb.ucsd.edu//~jmcauley/datasets.html">https://cseweb.ucsd.edu//~jmcauley/datasets.html</a></td>
-      <td>Recommender Systems and Personalization Datasets</td>
-  </tr>
-  <tr>
-      <td><a href="https://www.yelp.com/dataset">https://www.yelp.com/dataset</a></td>
-      <td>Yelp Open Dataset</td>
-  </tr>
-  <tr>
-      <td><a href="https://data.stackexchange.com/">https://data.stackexchange.com</a></td>
-      <td>StackExchange Data Explorer</td>
-</table>
-
 
 # 🔥 News
 - *XXXX.XX*: &nbsp;🎉🎉 XXXXXXX
