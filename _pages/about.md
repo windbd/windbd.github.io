@@ -19,7 +19,7 @@ redirect_from:
 
 My name is Zhang Lingfeng, Ph.D Candidate in Hefei University of Technology.
 
-My research interest includes UI Agent, LLM, multimodal learning.
+My research interest includes Web Agent, LLM, multimodal learning.
 
 
 # 🔥 News
